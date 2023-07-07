@@ -1,5 +1,8 @@
+#chatgpt_api.py
+
 import configparser
 import requests
+
 
 # Charger la clé d'API à partir du fichier de configuration
 config = configparser.ConfigParser()

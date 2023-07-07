@@ -1,3 +1,5 @@
+#interface_utilisateur.py
+
 import tkinter as tk
 import configparser
 
@@ -26,7 +28,7 @@ def process_query():
 
     # Afficher le résultat dans la zone de texte de sortie
     output_text.delete("1.0", tk.END)
-    output_text.insert(tk.END, response)
+    output_text.insert("insert", response)
 
 
 # Créer la fenêtre principale de l'éditeur LaTeX

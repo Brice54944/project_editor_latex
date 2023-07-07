@@ -1,3 +1,5 @@
+#latex_editor.py
+
 import tkinter as tk
 from tkinter import messagebox
 import subprocess
